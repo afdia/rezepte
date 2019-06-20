@@ -15,8 +15,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Datum", name: "date", widget: "datetime"}
       - {label: "Titel", name: "title", widget: "string"}
-      - {required: false, label: "Kategorien", name: "categories", widget: "select", multiple: "true", options: ["Hauptspeise","Süßspeise","Salat"]}
-      - {required: false, label: "Bild", name: "featured_image", widget: "image"}
+      - {label: "Kategorien", name: "categories", widget: "select", multiple: "true", options: ["Hauptspeise","Süßspeise","Salat"]}
+      - {label: "Bild", name: "featured_image", widget: "image", default: "/images/uploads/Muster.png"}
       - label: Recipe
         name: recipe
         widget: object
