@@ -21,9 +21,9 @@ collections:
         name: recipe
         widget: object
         fields:
-          - {label: "Servings", name: "servings", widget: "string"}
-          - {label: "Prep", name: "prep", widget: "string"}
-          - {label: "Cook", name: "cook", widget: "string"}
+          - {label: "Servings", name: "servings", widget: "string", default="x Stück"}
+          - {label: "Prep", name: "prep", widget: "string", default="x Minuten"}
+          - {label: "Cook", name: "cook", widget: "string", default="x Minuten"}
           - {label: "Ingredients", name: "ingredients_markdown", widget: "markdown", default="* "}
           - {label: "Directions", name: "directions_markdown", widget: "markdown", default="1. "}
       - {label: "Body", name: "body", widget: "markdown"}
