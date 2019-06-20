@@ -2,7 +2,7 @@
 # Site
 
 title: Rezepte
-baseurl: "/treat-jekyll-template"
+baseurl: /rezepte2
 url: "http://afdia.github.io" # the base hostname & protocol for your site
 
 # -----
