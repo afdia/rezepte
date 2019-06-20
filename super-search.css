@@ -1,0 +1,59 @@
+// https://github.com/chinchang/super-search/blob/master/super-search.css
+
+/* super-search
+Author: Kushagra Gour (http://kushagragour.in)
+MIT Licensed
+*/
+.super-search-btn {
+	position: fixed;
+	right: 10px;
+	top: 15px;
+	fill: #DDD;
+}
+.super-search-btn:hover {
+	fill: #BBB;
+}
+
+.super-search {
+}
+.super-search__close-btn {
+	fill: #DDD;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	z-index: 1;
+}
+.super-search__input {
+	font-size: 30px;
+	color: #999;
+	width: 100%;
+}
+.is-active .super-search__input {
+	transform: translateY(0);
+}
+.super-search__results {
+	list-style: none;
+	padding: 0;
+	overflow-x: hidden;
+	height: calc(100% - 110px);
+	transition: 0.2s ease;
+}
+.super-search__results.is-hidden {
+	opacity: 0;
+	transform: translateY(-1vh);
+}
+
+.super-search__results > li > a {
+	display: block;
+	position: relative;
+	background-color: #f9f9f9;
+	color: #666;
+	padding: 17px;
+	margin: 12px 0px;
+	box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+.super-search__result-date {
+	color: #BBB;
+	position: absolute;
+	right: 12px;
+}
