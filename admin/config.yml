@@ -16,7 +16,7 @@ collections:
       - {label: "Datum", name: "date", widget: "datetime"}
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Kategorien", name: "categories", widget: "select", multiple: "true", options: ["Hauptspeise","Süßspeise","Salat"]}
-      - {label: "Bild", name: "featured_image", widget: "image", default: "/images/uploads/muster.png"}
+      - {label: "Bild", name: "featured_image", widget: "image", default: "/images/uploads/empty.png"}
       - label: Recipe
         name: recipe
         widget: object
