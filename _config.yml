@@ -2,7 +2,7 @@
 # Site
 
 title: Rezepte
-baseurl: /rezepte2
+baseurl: /rezepte
 url: "http://afdia.github.io" # the base hostname & protocol for your site
 
 # -----
