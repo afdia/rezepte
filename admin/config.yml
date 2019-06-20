@@ -25,5 +25,5 @@ collections:
           - {label: "Prep", name: "prep", widget: "string"}
           - {label: "Cook", name: "cook", widget: "string"}
           - {label: "Ingredients", name: "ingredients_markdown", widget: "markdown"}
-          - {label: "Directions", name: "ingredients_markdown", widget: "markdown"}
+          - {label: "Directions", name: "directions_markdown", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
