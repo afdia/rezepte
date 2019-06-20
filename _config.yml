@@ -2,23 +2,8 @@
 # Site
 
 title: Treat Template
-url: "https://spring-bat.cloudvent.net/"
-baseurl:
-google_analytics_key:
-newsletter_action:
-disqus_shortname:
-
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Food blog template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Treat Template
-  links:
-    - https://github.com/CloudCannon/treat-jekyll-template
+url: "https://afdia.github.io/treat-jekyll-template/"
+baseurl: "/treat-jekyll-template"
 
 # -----
 # Build
@@ -59,8 +44,6 @@ defaults:
       push_sidebar_down: true
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
 
@@ -69,22 +52,3 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
-
-_options:
-  author_image:
-    width: 400
-    height: 400
