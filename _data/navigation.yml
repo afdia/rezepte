@@ -2,5 +2,7 @@
   link: /
 - name: About
   link: /about/
-- name: Recipes
+- name: Rezepte
   link: /recipes/
+- name: Bewertungen
+  link: /ratings/

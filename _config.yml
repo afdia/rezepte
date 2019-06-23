@@ -48,7 +48,5 @@ plugins:
   - jekyll-paginate
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - README.md
   - LICENCE
